@@ -21,7 +21,7 @@ def main():
     except OSError:
         pass
 
-    print("This program does A!")
+    print("This program does B!")
     current_version, update_version = upmr.update_available()
     if current_version != update_version:
         print("Update found!")
